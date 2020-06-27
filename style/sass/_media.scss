@@ -1,0 +1,21 @@
+$smallmobile:"(min-width: 320px)";
+$normallmobile:"(min-width: 576px)";
+$mediumscreen:"(min-width: 768px)";
+$largscreen:"(min-width: 992px)";
+$bigscreen:"(min-width:1200px)";
+
+// Navbar 
+@media#{$smallmobile}{
+    .bg-light{
+        background-color: #0ea195 !important;
+    }
+    .bg-light .width .dropdown-menu{
+        margin-left: 0 !important;
+    }
+}
+@media#{$normallmobile}{
+    .bg-light .width .dropdown-menu{
+        margin-left: 15px !important;
+    }
+}
+

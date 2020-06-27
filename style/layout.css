@@ -1,0 +1,188 @@
+.bg-light {
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+  background-color: transparent !important;
+}
+
+.bg-light .second .dropdown {
+  position: static !important;
+}
+
+.bg-light .dropdown-menu {
+  font-size: 14px;
+}
+
+.bg-light .width .dropdown-menu {
+  margin-left: 15px;
+}
+
+.bg-light .child {
+  width: 100%;
+}
+
+.bg-light .content p {
+  font-weight: bold;
+  padding-top: 18px;
+  padding-bottom: 10px;
+}
+
+.bg-light .nav-link {
+  font-weight: bold;
+  color: #eee !important;
+}
+
+.bg-light .nav-link:focus {
+  color: #fff !important;
+}
+
+.bg-light .active {
+  color: #fff !important;
+}
+
+.bg-light hr {
+  margin-top: 7px !important;
+  margin-bottom: 7px !important;
+}
+
+.bg-light li {
+  cursor: pointer;
+  color: rgba(85, 85, 85, 0.7);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.bg-light li:hover {
+  color: #0ea195;
+}
+
+.bg-light li .num {
+  background-color: #0ea195;
+  color: #fff;
+  padding: 0 5px;
+  border-radius: 6px;
+}
+
+.bg-light .option {
+  border: 1px solid #fff;
+  border-radius: 30px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.bg-light .option:hover {
+  background-color: #ff9838;
+  border: 1px solid #ff9838;
+}
+
+.bg-light .option .btn {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.bg-light .option .btn i {
+  margin-right: 5px;
+}
+
+.bg-light .social {
+  margin-left: 10px;
+}
+
+.bg-light .social i {
+  color: #ddd;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.bg-light .social i:hover {
+  color: #fff;
+}
+
+.main {
+  background: url("../imgs/study.jpg") no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  -webkit-clip-path: ellipse(100% 56% at 51% 40%);
+          clip-path: ellipse(100% 56% at 51% 40%);
+}
+
+.main .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(14, 161, 149, 0.8);
+}
+
+.main .overlay .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .overlay .content h1 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.main .overlay .content p {
+  text-align: center;
+  width: 100%;
+  color: #ddd;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.main .overlay .content .option {
+  border: 1px solid #fff;
+  border-radius: 30px;
+  display: inline-block;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.main .overlay .content .option:hover {
+  background-color: #ff9838;
+  border: 1px solid #ff9838;
+}
+
+.main .overlay .content .option .btn {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 20px;
+}
+
+.main .overlay .content .youtube {
+  display: inline-block;
+  color: #Fff;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 6px;
+  cursor: pointer;
+}
+
+@media (min-width: 320px) {
+  .bg-light {
+    background-color: #0ea195 !important;
+  }
+  .bg-light .width .dropdown-menu {
+    margin-left: 0 !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .bg-light .width .dropdown-menu {
+    margin-left: 15px !important;
+  }
+}
+/*# sourceMappingURL=layout.css.map */
