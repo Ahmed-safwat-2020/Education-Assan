@@ -5,11 +5,9 @@ $(document).ready(function(){
     $(".popular .content").on({
         mouseenter:function(){
             $(this).css("marginBottom","30px"),
-            $(".full").css("marginTop","30px")
         },
         mouseleave:function(){
-            $(this).css("marginBottom","0px"),
-            $(".full").css("marginTop","0px")
+            $(this).css("marginBottom","0px")
         }
     })
 })
