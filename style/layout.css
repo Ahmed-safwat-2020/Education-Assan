@@ -184,5 +184,14 @@
   .bg-light .width .dropdown-menu {
     margin-left: 15px !important;
   }
+  .bg-light {
+    background-color: #0ea195 !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .bg-light {
+    background-color: transparent !important;
+  }
 }
 /*# sourceMappingURL=layout.css.map */
