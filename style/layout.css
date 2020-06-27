@@ -98,10 +98,6 @@
   color: #fff;
 }
 
-body {
-  overflow-x: hidden;
-}
-
 .main {
   background: url("../imgs/study.jpg") no-repeat center center;
   background-size: cover;
@@ -271,10 +267,6 @@ body {
   font-weight: bold;
   color: #ddd;
   opacity: 1;
-}
-
-body {
-  overflow-x: hidden;
 }
 
 .full .col-md-6 {
@@ -537,7 +529,7 @@ body {
     padding: 30px !important;
   }
   .full .content .con h3 {
-    font-size: 18px;
+    font-size: 15px;
   }
   .full .content .con .explain {
     font-size: 14px !important;
