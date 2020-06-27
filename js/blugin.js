@@ -4,8 +4,8 @@ $(document).ready(function(){
     
     $(".popular .content").on({
         mouseenter:function(){
-            $(this).css("marginBottom","30px"),
-        },
+            $(this).css("marginBottom","30px")}
+            ,
         mouseleave:function(){
             $(this).css("marginBottom","0px")
         }
