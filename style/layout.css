@@ -99,7 +99,7 @@
 }
 
 .main {
-  background: url("../imgs/study.jpg") no-repeat center center fixed;
+  background: url("../imgs/study.jpg") no-repeat center center;
   background-size: cover;
   position: relative;
   -webkit-clip-path: ellipse(100% 56% at 51% 40%);
