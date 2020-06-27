@@ -1,7 +1,6 @@
 .bg-light {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #fff;
   font-size: 14px;
-  background-color: transparent !important;
 }
 
 .bg-light .second .dropdown {
@@ -171,6 +170,51 @@
   cursor: pointer;
 }
 
+.university {
+  background-color: #f5f5f5;
+  margin-top: -115px;
+  padding-top: 110px;
+  padding-bottom: 50px;
+}
+
+.university .content h2 {
+  font-weight: bold;
+}
+
+.university .content p {
+  opacity: 0.5;
+}
+
+.university .content .comment {
+  padding: 10px;
+  border: 1px solid #694d4d52;
+}
+
+.university .content .comment .lead {
+  opacity: 1;
+}
+
+.university .content .comment .name {
+  opacity: 1;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.university .content .comment .name::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  background-color: #000;
+  top: 12px;
+  left: -16px;
+}
+
+.university .content img {
+  width: 100%;
+}
+
 @media (min-width: 320px) {
   .bg-light {
     background-color: #0ea195 !important;
@@ -190,8 +234,58 @@
 }
 
 @media (min-width: 992px) {
+  .color2 {
+    background-color: #0ea195 !important;
+  }
   .bg-light {
-    background-color: transparent !important;
+    background-color: transparent;
+  }
+}
+
+@media (min-width: 320px) {
+  .university {
+    padding-top: 160px !important;
+    text-align: center;
+  }
+  .university .content h2 {
+    margin-top: -10px !important;
+  }
+  .university .content .comment {
+    margin-bottom: 10px !important;
+  }
+  .university .content .comment .name::before {
+    display: none;
+  }
+  .university img {
+    margin-top: 0 !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .university .content .comment {
+    margin-bottom: 5pxpx !important;
+  }
+  .university .content img {
+    margin-top: 0px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .university {
+    padding-top: 110px !important;
+    text-align: left;
+  }
+  .university .content h2 {
+    margin-top: 4rem !important;
+  }
+  .university .content .comment {
+    margin-bottom: 0px !important;
+  }
+  .university .content .comment .name::before {
+    display: block;
+  }
+  .university img {
+    margin-top: 0 !important;
   }
 }
 /*# sourceMappingURL=layout.css.map */
