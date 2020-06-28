@@ -640,9 +640,9 @@
   }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .bg-light .width .dropdown-menu {
-    margin-left: 15px !important;
+    margin-left: 0px !important;
   }
   .bg-light {
     background-color: #0ea195 !important;
@@ -650,6 +650,9 @@
 }
 
 @media (min-width: 992px) {
+  .bg-light .width .dropdown-menu {
+    margin-left: 15px !important;
+  }
   .color2 {
     background-color: #0ea195 !important;
   }
