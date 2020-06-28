@@ -406,7 +406,7 @@
 }
 
 .Upcoming {
-  height: 1000px;
+  padding-bottom: 50px;
 }
 
 .Upcoming h2 {
@@ -431,6 +431,204 @@
 .Upcoming .card .card-text {
   font-weight: bold;
   margin-bottom: 0;
+}
+
+.testmonial {
+  background: url("../imgs/img8.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.testmonial .overlay {
+  padding-bottom: 50px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(14, 161, 149, 0.75);
+}
+
+.testmonial .overlay h2 {
+  font-weight: bold;
+  color: white;
+  padding: 60px 0 0 0;
+}
+
+.testmonial .overlay .title {
+  color: #fff;
+  opacity: 0.7;
+  font-style: italic;
+  padding-bottom: 50px;
+}
+
+.testmonial .overlay .content {
+  background-color: #fff;
+  padding: 12px;
+  text-align: left;
+  height: 160px;
+  position: relative;
+}
+
+.testmonial .overlay .content::after {
+  position: absolute;
+  content: "";
+  top: 160px;
+  left: 35px;
+  border-width: 12px;
+  border-style: solid;
+  border-color: #fff transparent transparent;
+}
+
+.testmonial .overlay .font {
+  color: #ff9838;
+}
+
+.testmonial .overlay .img-content img {
+  width: 85px;
+  height: 85px;
+  float: left;
+  margin: 21px 0 0 10px;
+}
+
+.testmonial .overlay .img-content .info {
+  margin: 45px 0 20px 24px;
+  float: left;
+}
+
+.testmonial .overlay .img-content .info h5 {
+  margin-bottom: 0;
+  color: #fff;
+  font-weight: bold;
+}
+
+.testmonial .overlay .img-content .info p {
+  opacity: 0.7;
+  color: #fff;
+}
+
+.Join {
+  background-color: #f5f5f5;
+}
+
+.Join h3 {
+  padding-top: 50px;
+  color: #000;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.Join p {
+  color: #000;
+  opacity: .7;
+  margin-bottom: 20px;
+}
+
+.Join .but {
+  position: relative;
+  width: 50%;
+  margin-left: 25%;
+  z-index: 2;
+  top: 20px;
+}
+
+.Join .but input {
+  width: 100%;
+  height: 44px;
+  border-radius: 20px;
+  padding: 15px;
+  border: 1px solid #eee;
+}
+
+.Join .but input:focus {
+  outline: none;
+}
+
+.Join .but button {
+  position: absolute;
+  top: 4px;
+  right: 5px;
+  border-radius: 50%;
+  color: #fff;
+  border: 0;
+  background-color: #ff9838;
+  width: 35px;
+  height: 35px;
+  line-height: 29px;
+}
+
+.Footer {
+  background-color: #212121;
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
+.Footer p {
+  font-weight: bold;
+  padding-top: 18px;
+  padding-bottom: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.Footer li {
+  color: #fff;
+  cursor: pointer;
+}
+
+.Footer li:hover {
+  color: #0ea195;
+}
+
+.Footer hr {
+  background-color: #fff;
+  margin: 10px 0;
+}
+
+.Footer .content .card {
+  background-color: #212121;
+  border: none;
+  margin-bottom: 0 !important;
+}
+
+.Footer .content .card .col-md-4 {
+  width: 85px;
+}
+
+.Footer .content .card .col-md-8 {
+  width: calc(100% - 85px);
+}
+
+.Footer .content .card .card-body {
+  padding: 0;
+}
+
+.Footer .content .card .card-body .card-title {
+  padding-top: 0;
+  padding-left: 10px;
+  font-size: 15px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.Footer .content .card .card-body .card-text {
+  padding-top: 0;
+  padding-left: 10px;
+  padding-bottom: 0;
+}
+
+.Footer .content hr {
+  margin: 7.5px 0;
+}
+
+.Footer .num {
+  background-color: #0ea195;
+  color: #fff;
+  padding: 0 5px;
+  border-radius: 6px;
+}
+
+.Footer .Copyright {
+  color: #fff;
+  padding-top: 20px;
 }
 
 @media (min-width: 320px) {
@@ -584,6 +782,20 @@
     margin-top: 100px !important;
     margin-bottom: 25px !important;
     width: 106% !important;
+  }
+}
+
+@media (min-width: 320px) {
+  .Join .but {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 576px) {
+  .Join .but {
+    width: 50%;
+    margin-left: 25%;
   }
 }
 /*# sourceMappingURL=layout.css.map */
