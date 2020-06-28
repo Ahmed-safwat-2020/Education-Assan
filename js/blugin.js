@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $(".width .dropdown-menu").css("width",$(window).width() - 45)
+    $(".width .dropdown-menu").css("width",$(window).width() - 60)
     $(".main,.main .content").css("height",$(window).height());
     
     $(window).on({
