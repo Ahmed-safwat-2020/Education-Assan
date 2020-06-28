@@ -1,0 +1,57 @@
+
+.main{
+    background: url("../imgs/study.jpg") no-repeat center center ;
+    background-size: cover;
+    position: relative;
+    clip-path: ellipse(100% 56% at 51% 40%);
+    .overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(14, 161, 149, 0.8);
+        .content{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            h1{
+                color: #fff;
+                font-weight: bold;
+                font-size: 45px;
+            }
+            p{
+                text-align: center;
+                width: 100%;
+                color: #ddd;
+                font-style: italic;
+                font-size: 20px;
+            }
+            .option{
+                border: 1px solid #fff;
+                border-radius: 30px;
+                display: inline-block;
+                transition: all 0.5s ease-in-out;
+                &:hover{
+                    background-color: #ff9838;
+                border: 1px solid #ff9838;
+        
+                }
+               .btn{
+                   color: #fff;
+                   font-size: 14px;
+                   font-weight: bold;
+                   text-transform: uppercase;
+                   padding:10px 20px;
+               }
+           }
+           .youtube{
+            display: inline-block;
+            color: #Fff;
+            border-bottom: 1px solid #fff;
+            padding-bottom: 6px;
+            cursor: pointer;
+           }
+        }
+    }
+}
