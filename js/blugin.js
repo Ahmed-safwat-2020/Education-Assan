@@ -8,5 +8,9 @@ $(document).ready(function(){
             $("#preloader").fadeOut(500)
         }
     })
-
+    if ($(window).innerWidth()<992){
+        $("nav").removeClass("fixed-top")
+    }else{
+        $("nav").addClass("fixed-top")
+    }
 })
